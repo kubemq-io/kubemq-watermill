@@ -43,7 +43,7 @@ docker run -d \
   -p 50000:50000 \
   -p 8080:8080 \
   -p 9090:9090 \
-  kubemq/kubemq:latest
+  europe-docker.pkg.dev/kubemq/images/kubemq-next:latest
 ```
 
 The broker exposes:
